@@ -6,7 +6,8 @@ Build tool CMake.
 Testing tool Catch2.  
 
 ## Description
-Circular hash table implemented as a map<char, Entity>. Keys are char, and values are Entity structure who got status and item members.  
+Circular hash table implemented as a map<char, Entity>.  
+Keys are char, and values are Entity structure who got status and item members.  
 Status of a cell is either "never used", "occupied" or "tombstone".  
 "never used" ones are free to be filled. "occupied" ones already taken.   
 "tombstone" ones represent deleted ones. Deleted ones remains in table and their place never used again.  
